@@ -1,0 +1,192 @@
+/* -------------------
+  全体構造
+------------------- */
+body {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+a {
+  color: #ffcc00;
+}
+/* .page {} */
+.content {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto 20px auto;
+}
+/* トップへも戻るボタン */
+.back-top{
+
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
+.back-top i{
+  color: #fff;
+font-size: 40px;
+width: 60px;
+height: 60px;
+text-align:center ;
+line-height: 60px;
+background-color: #ffcc00;
+border-radius: 50%;
+box-shadow: 3px 3px 5px #ccc;
+}
+/* スライドショー(ボーダー非表示に）*/
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+ }
+/* -------------------
+  ヘッダー
+------------------- */
+header {
+  background-color: #b2eaff;
+  height: 150px;
+  border-top: 10px solid #0182be;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 20px;
+}
+header .inner {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 30px 0 0 20px;
+}
+header nav {
+  margin: 30px 20px 0 0;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 620px;
+}
+
+/* -------------------
+  メイン
+------------------- */
+main {
+  width: 640px;
+}
+.others main h2 {
+  background-color: #0182be;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.card {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card .right {
+  width: 420px;
+}
+.card h3 {
+  font-size: 20px;
+  color: #0182be;
+  margin-bottom: 20px;
+}
+.card p {
+  line-height: 1.5;
+}
+
+/* -------------------
+  サイド
+------------------- */
+aside {
+  width: 300px;
+}
+aside .banner {
+  margin-bottom: 20px;
+}
+aside .info {
+  border: 5px solid #0182be;
+  border-radius: 5px;
+}
+aside .info h2 {
+  background-color: #0182be;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 15px;
+}
+aside .info ul {
+  list-style-type: none;
+  margin: 20px 20px 0 20px;
+}
+aside .info li {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* -------------------
+  フッター
+------------------- */
+footer {
+  background-color: #b2eaff;
+  border-bottom: 10px solid #0182be;
+  border-radius: 5px 5px 0 0;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer address {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* -------------------
+  トップページ
+------------------- */
+#home main .main-image {
+  margin-bottom: 20px;
+}
+#home main h2 {
+  font-size: 20px;
+  color: #0182be;
+  margin-bottom: 20px;
+}
+#home main p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* -------------------
+  学科紹介
+------------------- */
+
+/* -------------------
+  入学案内
+------------------- */
+
+/* -------------------
+  アクセス
+------------------- */
+#access main .american h3 {
+  color: #0182be;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#access main .american p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
